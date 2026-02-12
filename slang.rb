@@ -4,17 +4,17 @@
 class Slang < Formula
   desc "Shader language compiler with modern features for real-time graphics"
   homepage "https://shader-slang.org/"
-  version "2026.1.2"
+  version "2026.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shader-slang/slang/releases/download/v2026.1.2/slang-2026.1.2-macos-aarch64.zip"
-      sha256 "4f087c4541377a9acac1cadef55744302cc5962d0dabc677ff93f180ef2e8fa5"
+      url "https://github.com/shader-slang/slang/releases/download/v2026.2/slang-2026.2-macos-aarch64.zip"
+      sha256 "f80d76e42b9afe9238ac945d42276d4784967fe74c4a292bdbc35b1f0fa2ef39"
     end
     on_intel do
-      url "https://github.com/shader-slang/slang/releases/download/v2026.1.2/slang-2026.1.2-macos-x86_64.zip"
-      sha256 "4ec48a51469ff8bf5cfa11498c9522b743de584573fbf1185fd0fa4b1a89d457"
+      url "https://github.com/shader-slang/slang/releases/download/v2026.2/slang-2026.2-macos-x86_64.zip"
+      sha256 "715436f4c5b7463567fcad29d49f58100cf6c0cd7bc57eafb1147da1ef04c981"
     end
   end
 
